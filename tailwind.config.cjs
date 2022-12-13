@@ -28,7 +28,7 @@ module.exports = {
           100: '#F9F8EC'
         },
         gsorange: {
-          100: '#FCBE45'
+          100: '#d88744'
         },
         gsgray: {
           100: '#F9F8F7',

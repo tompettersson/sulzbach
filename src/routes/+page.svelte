@@ -5,6 +5,7 @@
 	import Weather from '$lib/Weather.svelte';
 	import OpeningHours from '$lib/OpeningHours.svelte';
 	import Calendar from '$lib/Calendar.svelte';
+	import Around from '$lib/Around.svelte';
 	/**
 	 * @type {any}
 	 */
@@ -17,3 +18,4 @@
 <Weather {...data} />
 <OpeningHours />
 <Calendar />
+<Around />

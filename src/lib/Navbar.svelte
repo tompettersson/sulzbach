@@ -269,7 +269,7 @@
 
 					{#if toggleNavOne}
 						<div
-							class="absolute z-10 -ml-4 mt-20 w-screen max-w-md transform lg:left-1/2 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2"
+							class="absolute z-10 -ml-4 mt-20 w-screen max-w-md transform lg:left-1/3 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2"
 						>
 							<div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
@@ -335,7 +335,7 @@
 
 					{#if toggleNavTwo}
 						<div
-							class="absolute z-10 -ml-4 mt-20 w-screen max-w-md transform lg:left-1/2 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2"
+							class="absolute z-10 -ml-4 mt-20 w-screen max-w-md transform lg:left-1/3 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2"
 						>
 							<div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
@@ -401,7 +401,7 @@
 
 					{#if toggleNavThree}
 						<div
-							class="absolute z-10 -ml-4 mt-20 w-screen max-w-md transform lg:left-1/2 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2"
+							class="absolute z-10 -ml-4 mt-20 w-screen max-w-md transform lg:left-1/3 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2"
 						>
 							<div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">

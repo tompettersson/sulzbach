@@ -6,6 +6,7 @@
 	import OpeningHours from '$lib/OpeningHours.svelte';
 	import Calendar from '$lib/Calendar.svelte';
 	import Around from '$lib/Around.svelte';
+	import Malfunction from '$lib/Malfunction.svelte';
 	/**
 	 * @type {any}
 	 */
@@ -19,3 +20,4 @@
 <OpeningHours />
 <Calendar />
 <Around />
+<Malfunction />

@@ -11,7 +11,7 @@
 				eine Waldparklandschaft, die zum Spazierengehen, Radfahren und sich Erholen einlädt.
 			</p>
 			<div class="mt-10 sm:flex sm:justify-center lg:justify-start">
-				<div class="rounded-md shadow">
+				<div class="rounded-md">
 					<a
 						href="./"
 						class="flex w-full uppercase font-semibold items-center justify-center border border-transparent border-gsblack-100 py-2 px-8 text-base text-gsblack-100 transition-colors hover:bg-gsblack-100 hover:text-white md:py-2 md:px-10 md:text-base"

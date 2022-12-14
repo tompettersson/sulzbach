@@ -10,7 +10,7 @@
 	const predictionDays = ['Heute', 'Morgen', 'Übermorgen', 'In 3 Tagen', 'In 4 Tagen'];
 </script>
 
-<div class="w-full bg-gsblue-100 p-10 pt-6">
+<div class="w-full bg-sky-500 p-10 pt-6">
 	<div class="mx-auto flex max-w-7xl flex-row items-stretch">
 		<div
 			class="flex w-[20%] flex-col content-center items-center justify-center text-xl font-bold text-white"

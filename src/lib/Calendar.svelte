@@ -8,25 +8,25 @@
 	<div class="w-1/3 flex justify-center items-center content-center min-h-24 bg-gsgray-600">
 		<DateInput bind:value={date} />
 	</div>
-	<div class="w-2/3 min-h-24 flex flex-col">
+	<div class="w-2/3 min-h-24 flex flex-col ml-6">
 		<div class="flex flex-row border-b border-slate-200">
 			<img src="./sulzbach-rathaus.jpg" class="max-h-28 p-4" alt="" />
 			<div class="flex flex-col p-4 justify-center">
-				<div class="text-base font-base text-gsgreen-100">Sa. 22. JULI, 9 UHR</div>
+				<div class="text-base font-base text-lime-600">Sa. 22. JULI, 9 UHR</div>
 				<div class="text-lg font-bold">Veranstaltungstipp Teaser</div>
 			</div>
 		</div>
 		<div class="flex flex-row border-b border-slate-200">
 			<img src="./sulzbach-rathaus.jpg" class="max-h-28 p-4" alt="" />
 			<div class="flex flex-col p-4 justify-center">
-				<div class="text-base font-base text-gsgreen-100">Sa. 22. JULI, 9 UHR</div>
+				<div class="text-base font-base text-lime-600">Sa. 22. JULI, 9 UHR</div>
 				<div class="text-lg font-bold">Veranstaltungstipp Teaser</div>
 			</div>
 		</div>
 		<div class="flex flex-row border-b border-slate-200">
 			<img src="./sulzbach-rathaus.jpg" class="max-h-28 p-4" alt="" />
 			<div class="flex flex-col p-4 justify-center">
-				<div class="text-base font-base text-gsgreen-100">Sa. 22. JULI, 9 UHR</div>
+				<div class="text-base font-base text-lime-600">Sa. 22. JULI, 9 UHR</div>
 				<div class="text-lg font-bold">Veranstaltungstipp Teaser</div>
 			</div>
 		</div>
@@ -34,10 +34,10 @@
 </div>
 
 <div class="mt-16 mb-16 sm:flex sm:justify-center">
-	<div class="rounded-md shadow">
+	<div class="rounded-md">
 		<a
 			href="./"
-			class="flex font-semibold uppercase w-full items-center justify-center border border-transparent border-gsblack-100 py-2 px-8 text-base text-gsblack-100 transition-colors hover:bg-gsblack-100 hover:text-white md:py-2 md:px-10 md:text-base"
+			class="flex font-semibold uppercase w-full items-center justify-center border border-transparent border-lime-600 py-2 px-8 text-base text-lime-600 transition-colors hover:bg-lime-600 hover:text-white md:py-2 md:px-10 md:text-base"
 			>Veranstaltungen</a
 		>
 	</div>

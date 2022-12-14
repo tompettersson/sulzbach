@@ -4,8 +4,8 @@
 <div class="w-full py-12">
 	<h2 class="mx-auto max-w-7xl pt-12 pb-12 text-3xl font-bold">Öffnungszeiten</h2>
 	<div class="mx-auto flex max-w-7xl">
-		<div class="w-1/4 border-l-4 border-l-gsblue-100 bg-white pl-6">
-			<h3 class="pb-4 text-xl font-bold">Bürgerbüro</h3>
+		<div class="w-1/4 border-l-4 border-l-sky-500 bg-white pl-6">
+			<h3 class="mt-2 pb-4 text-xl font-bold">Bürgerbüro</h3>
 
 			<table class="w-full table-fixed align-top text-sm">
 				<tbody>
@@ -24,8 +24,8 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="w-1/4 border-l-4 border-l-gsblue-100 bg-white pl-6">
-			<h3 class="pb-4 text-xl font-bold">Allgemeine Verwaltung</h3>
+		<div class="w-1/4 border-l-4 border-l-sky-500 bg-white pl-6">
+			<h3 class="mt-2 pb-4 text-xl font-bold">Allgemeine Verwaltung</h3>
 
 			<table class="w-full table-fixed text-sm">
 				<tbody>
@@ -44,8 +44,8 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="w-1/4 border-l-4 border-l-gsblue-100 bg-white pl-6">
-			<h3 class="pb-4 text-xl font-bold">Empfang</h3>
+		<div class="w-1/4 border-l-4 border-l-sky-500 bg-white pl-6">
+			<h3 class="mt-2 pb-4 text-xl font-bold">Empfang</h3>
 
 			<table class="w-full table-fixed text-sm">
 				<tbody>

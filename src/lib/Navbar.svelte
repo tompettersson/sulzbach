@@ -75,18 +75,6 @@
 			icon: './plus.svg'
 		},
 		{
-			name: 'Navigationspunkt 2',
-			text: 'Lorem Ipsum dolor sit amet.',
-			href: '#',
-			icon: './plus.svg'
-		},
-		{
-			name: 'Navigationspunkt 3',
-			text: 'Lorem Ipsum dolor sit amet.',
-			href: '#',
-			icon: './plus.svg'
-		},
-		{
 			name: 'Navigationspunkt 4',
 			text: 'Lorem Ipsum dolor sit amet.',
 			href: '#',
@@ -103,18 +91,6 @@
 			text: 'Lorem Ipsum dolor sit amet.',
 			href: '#',
 			icon: './plus.svg'
-		},
-		{
-			name: 'Navigationspunkt 7',
-			text: 'Lorem Ipsum dolor sit amet.',
-			href: '#',
-			icon: './plus.svg'
-		},
-		{
-			name: 'Navigationspunkt 8',
-			text: 'Lorem Ipsum dolor sit amet.',
-			href: '#',
-			icon: './plus.svg'
 		}
 	];
 
@@ -126,12 +102,6 @@
 	};
 
 	const mainNavThreepoints = [
-		{
-			name: 'Navigationspunkt 1',
-			text: 'Lorem Ipsum dolor sit amet.',
-			href: '#',
-			icon: './plus.svg'
-		},
 		{
 			name: 'Navigationspunkt 2',
 			text: 'Lorem Ipsum dolor sit amet.',
@@ -251,20 +221,17 @@
 
 					<button
 						type="button"
-						class="max-w-24 group mr-12 inline-flex items-center border-l-4 border-gsorange-100 bg-white pl-6 text-base font-medium text-gsblack-100"
+						class="max-w-24 group mr-12 inline-flex items-center border-l-4 border-sky-500 bg-white pl-6 text-base font-medium text-gsblack-100"
 						aria-expanded="false"
 						on:click={() => {
 							toggleNavOne = !toggleNavOne;
+							toggleNavTwo = false;
+							toggleNavThree = false;
 						}}
 					>
 						<span class="inline-block text-left text-xl font-bold leading-tight"
 							>Bürgerservice &<br />Rathaus</span
 						>
-						<!--
-        Heroicon name: mini/chevron-down
-
-        Item active: "text-gray-600", Item inactive: "text-gray-400"
-      -->
 					</button>
 
 					{#if toggleNavOne}
@@ -278,7 +245,6 @@
 											<div
 												class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-100 text-white sm:h-12 sm:w-12"
 											>
-												<!-- Heroicon name: outline/squares-2x2 -->
 												<img
 													src={mainNavOnepoint.icon}
 													alt={mainNavOnepoint.name}
@@ -317,10 +283,12 @@
 
 					<button
 						type="button"
-						class="max-w-24 group mr-12 flex items-center border-l-4 border-gsblue-100 bg-white pl-6 text-base font-medium text-gsblack-100"
+						class="max-w-24 group mr-12 flex items-center border-l-4 border-amber-600 bg-white pl-6 text-base font-medium text-gsblack-100"
 						aria-expanded="false"
 						on:click={() => {
+							toggleNavOne = false;
 							toggleNavTwo = !toggleNavTwo;
+							toggleNavThree = false;
 						}}
 					>
 						<span class="inline-block text-left text-xl font-bold leading-tight"
@@ -383,9 +351,11 @@
 
 					<button
 						type="button"
-						class="max-w-24 group mr-12 inline-flex items-center border-l-4 border-gsgreen-100 bg-white pl-6 text-base font-medium text-gsblack-100"
+						class="max-w-24 group mr-12 inline-flex items-center border-l-4 border-lime-600 bg-white pl-6 text-base font-medium text-gsblack-100"
 						aria-expanded="false"
 						on:click={() => {
+							toggleNavOne = false;
+							toggleNavTwo = false;
 							toggleNavThree = !toggleNavThree;
 						}}
 					>
